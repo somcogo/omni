@@ -1,0 +1,13 @@
+expname = default
+data_dir = /home/somahansel/developer/data/DAVIS-2017-trainval-480p/DAVIS/JPEGImages/480p/lab-coat
+
+# training
+num_pairs = 8
+num_pts = 256
+use_affine = True
+use_error_map = True
+use_count_map = True
+
+# inference
+use_max_loc = True
+vis_occlusion = True
